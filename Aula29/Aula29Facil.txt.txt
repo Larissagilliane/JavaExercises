@@ -1,0 +1,31 @@
+-FÁCIL-
+Árvore Trie -  Pode ser usada para armazenar um array associativo em que as chaves são normalmente cadeias de caracteres, pode substituir uma tabela hash e é usada,
+geralmente, para localizar uma palavra em um dicionário. Como vantagem é mais rápida.
+
+Árvore Patricia -  É um algoritmo para realização de buscas em árvores com as chaves dos nós representadas em binário, sem armazenar as chaves nos nós.
+Como vantagem é uma representação compacta de uma Trie onde os nós que teriam apenas um filho são agrupados nos seus antecessores.
+
+Árvore Binária - É uma estrutura de dados caracterizada por não ter elemento algum (árvore vazia) ou tem um elemento distinto, denominado raiz, 
+com dois ponteiros para duas estruturas diferentes, denominadas sub-árvore esquerda e sub-árvore direita.
+
+Árvore Binária de busca - É uma estrutura de dados de árvore binária baseada em nós, onde todos os nós da subárvore esquerda possuem um valor numérico inferior 
+ao nó raiz e todos os nós da subárvore direita possuem um valor superior ao nó raiz (esta é a forma padrão, podendo as subárvores serem invertidas, 
+dependendo da aplicação).
+ 
+Árvore B - São semelhantes as árvores rubro-negras, mas são melhores para minimizar operações de E/S de disco. Árvores B são uma generalização das 
+árvores binária de busca, pois cada nó de uma árvore binária armazena uma única chave de busca, enquanto as árvores B armazenam um número maior do que um de chaves 
+de busca em cada nó, ou no termo mais usual para essa árvore, em cada página.
+
+Árvore AVL - Nessa estrutura de dados cada elemento é chamado de nó. Cada nó armazena uma chave e dois ponteiros, 
+uma para a subárvore esquerda e outro para a subárvore direita.
+
+Árvore Rubro-negra -  De maneira simplificada, uma árvore rubro-negra é uma árvore de busca binária que insere e remove de forma inteligente, 
+para assegurar que a árvore permaneça aproximadamente balanceada. A árvore é complexa mas possui um bom pior caso. 
+
+
+-MÉDIA-
+A árvore PATRICIA é uma representação compacta de uma Trie onde os nós que teriam apenas um filho são agrupados nos seus antecessores. 
+É comum que as árvores Trie possuam um grupo disperso de chaves, desse modo, muitos nós possuem apenas um descendente. 
+Isto faz com que as Trie tenham um custo grande de espaço.
+Uma Trie usa cada uma das partes de uma chave, por vez, para determinar a sub-árvore. 
+Por outro lado, a árvore PATRICIA escolhe um elemento da chave (armazenando a sua posição) para determinar a sub-árvore.

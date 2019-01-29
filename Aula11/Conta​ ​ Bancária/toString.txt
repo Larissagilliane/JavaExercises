@@ -1,0 +1,1 @@
+O tipo de retorno do método toString é uma String que representa o objeto e o não possuí atributos como parâmetros. 
